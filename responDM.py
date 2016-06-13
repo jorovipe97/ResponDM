@@ -44,6 +44,7 @@ def limit_handled(cursor):
         	break
 
 
+api.get_direct_message()
 """
 for friend in limit_handled( tweepy.Cursor(api.friends).items() ):
     print ("Buscando...")    
